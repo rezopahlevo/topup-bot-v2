@@ -4,7 +4,7 @@ const express = require('express');
 
 const bot = new TelegramBot(process.env.BOT_TOKEN, { polling: true });
 
-const GROUP_CHAT_ID = '@gruporderan'; // Ganti jika pakai ID langsung
+const GROUP_CHAT_ID = '-1002595696490'; // Ganti jika pakai ID langsung
 
 // Start command
 bot.onText(/\/start/, (msg) => {
